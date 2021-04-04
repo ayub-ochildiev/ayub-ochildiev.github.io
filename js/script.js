@@ -12,7 +12,10 @@ close.addEventListener('click', () => {
 
 $(document).ready(function(){
 	$('.company__carucel').slick({
-		
+		autoplay: true,
+		autoplaySpeed: 1500,
+		prevArrow: '<button type="button" class="slick-prev"><img src="icons/left-arrow.png"></button>',
+		nextArrow: '<button type="button" class="slick-next"><img src="icons/right-arrow.png"></button>',
 	});
   });
 
@@ -22,7 +25,9 @@ $(document).ready(function(){
 		slidesToShow: 2,
 		slidesToScroll: 1,
 		autoplay: true,
+		autoplaySpeed: 2000,
 		adaptiveHight: true,
-		prevArrow: '<button type="button" class="slick-prev"><img src="../icons/prev-arrow.png"></button>',
+		prevArrow: '<button type="button" class="slick-prev"><img src="icons/left-arrow.png"></button>',
+		nextArrow: '<button type="button" class="slick-next"><img src="icons/right-arrow.png"></button>',
 	  });
   });
