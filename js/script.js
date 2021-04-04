@@ -11,7 +11,7 @@ close.addEventListener('click', () => {
 }); 
 
 $(document).ready(function(){
-	$('.company__carucel').slick({
+	$('.company__carousel').slick({
 		autoplay: true,
 		autoplaySpeed: 1500,
 		prevArrow: '<button type="button" class="slick-prev"><img src="icons/left-arrow.png"></button>',
@@ -20,12 +20,12 @@ $(document).ready(function(){
   });
 
 $(document).ready(function(){
-	$('.team__carucel').slick({
+	$('.team__carousel').slick({
 		infinite: true,
 		slidesToShow: 2,
 		slidesToScroll: 1,
 		autoplay: true,
-		autoplaySpeed: 2000,
+		autoplaySpeed: 1500,
 		adaptiveHight: true,
 		prevArrow: '<button type="button" class="slick-prev"><img src="icons/left-arrow.png"></button>',
 		nextArrow: '<button type="button" class="slick-next"><img src="icons/right-arrow.png"></button>',
